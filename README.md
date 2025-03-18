@@ -1,12 +1,17 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for creating and editing a CV. Users can enter their general information, educational experience, and practical experience. The form allows editing and submitting, displaying the entered data dynamically.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add and edit **General Information** (Name, Email, Phone).
+- Add and edit **Educational Experience** (School Name, Title of Study, Date of Study).
+- Add and edit **Practical Experience** (Company Name, Position Title, Responsibilities, Work Period).
+- Submit the form to display the CV.
+- Edit the form to update information.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) with [Vite](https://vitejs.dev/)
+- CSS for styling
+- State management with React Hooks
